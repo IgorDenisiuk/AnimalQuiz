@@ -17,7 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AnimalQuiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pC-Jo-drs">
-                                <rect key="frame" x="77" y="308" width="221" height="51"/>
+                                <rect key="frame" x="99.5" y="313" width="176.5" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8pC-Jo-drs" secondAttribute="height" multiplier="13:3" id="hJP-Jf-9JQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,10 +29,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="8pC-Jo-drs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="308" id="1uM-lr-b55"/>
-                            <constraint firstItem="8pC-Jo-drs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4So-ZU-dzX"/>
-                            <constraint firstItem="8pC-Jo-drs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Saw-aW-O30"/>
-                            <constraint firstItem="8pC-Jo-drs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="sdT-Rh-NRL"/>
+                            <constraint firstItem="8pC-Jo-drs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pV6-4Z-6xG"/>
+                            <constraint firstItem="8pC-Jo-drs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uCQ-8B-xSE"/>
                         </constraints>
                     </view>
                 </viewController>
